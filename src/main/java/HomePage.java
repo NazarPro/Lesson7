@@ -29,10 +29,7 @@ public class HomePage extends BasePage{
     public HomePage(WebDriver driver) {super(driver);
     }
 
-    public WebElement getComposeMailButton(){return composeMailButton;}
     public void clickComposeMailButton(){composeMailButton.click();}
-
-    public WebElement getRecipientsEmailAddress(){return recipientsEmailAddress;}
 
     public void fillInComposeLetterFormAndSendLetter(String recipient, String subject, String messageText){
         recipientsEmailAddress.clear();

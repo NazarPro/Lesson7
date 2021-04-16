@@ -20,14 +20,4 @@ public class BasePage {
         wait.until(ExpectedConditions.invisibilityOf(element));
     }
 
-    public void waitForPageLoadComplete(long timeToWait) {
-        new WebDriverWait(driver, timeToWait).until(
-                webDriver -> ((JavascriptExecutor) webDriver).executeScript("return document.readyState").equals("complete"));
-    }
-
-    public void waitVisibilityOfElement(long timeToWait, WebElement element) {
-        WebDriverWait wait = new WebDriverWait(driver, timeToWait);
-        wait.until(ExpectedConditions.visibilityOf(element));
-    }
-
 }

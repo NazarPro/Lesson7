@@ -37,17 +37,12 @@ public class SendMailTest extends BaseTest{
     public void testSendMailFromActiveAccountCheckInSentDeleteLetter(){
 
         getLoginPage().submitLogin(LOGIN);
-        getLoginPage().waitVisibilityOfElement(TIMEOUT, getLoginPage().getPasswordInputField());
         getLoginPage().submitPassword(PWD);
-        getHomePage().waitVisibilityOfElement(TIMEOUT, getHomePage().getComposeMailButton());
         getHomePage().clickComposeMailButton();
-        getHomePage().waitVisibilityOfElement(TIMEOUT, getHomePage().getRecipientsEmailAddress());
         getHomePage().fillInComposeLetterFormAndSendLetter(RECIPIENT, SUBJECT, LETTER_TEXT);
         getHomePage().waitInvisibilityOfElement(TIMEOUT, getHomePage().getPopupAlertMessageSent());
         getHomePage().clickSentLettersSideMenuItem();
-        getSentPage().waitVisibilityOfElement(TIMEOUT, getSentPage().getFirstLetterOfTheListOfLettersOnPage());
         getSentPage().clickFirstLetterOfTheListOfLettersOnPage();
-        getSentPage().waitForPageLoadComplete(TIMEOUT);
         Assert.assertEquals(RECIPIENT.substring(0,10), getSentPage().getRecipientsEmailAddress());
         Assert.assertEquals(SUBJECT, getSentPage().getLetterSubject());
         Assert.assertEquals(LETTER_TEXT, getSentPage().getLetterText());

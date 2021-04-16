@@ -25,9 +25,6 @@ public class SentPage extends BasePage{
     public SentPage(WebDriver driver) {super(driver);
     }
 
-    public WebElement getFirstLetterOfTheListOfLettersOnPage(){
-        return listOfLettersOnPage.get(0);
-    }
     public void clickFirstLetterOfTheListOfLettersOnPage(){
         listOfLettersOnPage.get(0).click();
     }

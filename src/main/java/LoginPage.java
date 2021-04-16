@@ -19,8 +19,6 @@ public class LoginPage extends BasePage {
         inputLoginTextField.sendKeys(login, Keys.ENTER);
     }
 
-    public WebElement getPasswordInputField(){return inputPasswordTextField;}
-
     public void submitPassword(String password) {
         inputPasswordTextField.clear();
         inputPasswordTextField.sendKeys(password, Keys.ENTER);
