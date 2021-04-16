@@ -1,0 +1,9 @@
+<users>
+    <user id="1">
+        <login>labepamone</login>
+        <password>lab123456epam</password>
+        <recipientEmail>labepamtwo@gmail.com</recipientEmail>
+        <subject>TestMail</subject>
+        <letterText>Test Letter Text</letterText>
+    </user>
+</users>
