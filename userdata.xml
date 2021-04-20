@@ -1,8 +1,47 @@
+<!DOCTYPE users [
+        <!ELEMENT users (user)*>
+        <!ELEMENT user (login|password|recipientEmail|subject|letterText)*>
+        <!ATTLIST user
+                id CDATA #REQUIRED>
+        <!ELEMENT login (#PCDATA)>
+        <!ELEMENT password (#PCDATA)>
+        <!ELEMENT recipientEmail (#PCDATA)>
+        <!ELEMENT subject (#PCDATA)>
+        <!ELEMENT letterText (#PCDATA)>
+        ]>
 <users>
-    <user id="1">
+    <user id="0">
         <login>labepamone</login>
-        <password></password>
-        <recipientEmail>labepamtwo@gmail.com</recipientEmail>
+        <password>lab123456epam</password>
+        <recipientEmail>labepamreceiver@gmail.com</recipientEmail>
+        <subject>TestMail</subject>
+        <letterText>Test Letter Text</letterText>
+    </user>
+    <user id="1">
+        <login>labepamtwo</login>
+        <password>lab123456epam</password>
+        <recipientEmail>labepamreceiver@gmail.com</recipientEmail>
+        <subject>TestMail</subject>
+        <letterText>Test Letter Text</letterText>
+    </user>
+    <user id="2">
+        <login>labepamthree</login>
+        <password>lab123456epam</password>
+        <recipientEmail>labepamreceiver@gmail.com</recipientEmail>
+        <subject>TestMail</subject>
+        <letterText>Test Letter Text</letterText>
+    </user>
+    <user id="3">
+        <login>labepamfour</login>
+        <password>lab123456epam</password>
+        <recipientEmail>labepamreceiver@gmail.com</recipientEmail>
+        <subject>TestMail</subject>
+        <letterText>Test Letter Text</letterText>
+    </user>
+    <user id="4">
+        <login>labepamfive</login>
+        <password>lab123456epam</password>
+        <recipientEmail>labepamreceiver@gmail.com</recipientEmail>
         <subject>TestMail</subject>
         <letterText>Test Letter Text</letterText>
     </user>

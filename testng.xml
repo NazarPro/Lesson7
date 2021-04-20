@@ -1,0 +1,23 @@
+<!DOCTYPE suite [
+        <!ELEMENT suite (test)*>
+        <!ATTLIST suite
+                name CDATA #REQUIRED
+                verbose CDATA #REQUIRED
+                parallel CDATA #REQUIRED
+                data-provider-thread-count CDATA #REQUIRED
+                thread-count CDATA #REQUIRED>
+        <!ELEMENT test (classes)*>
+        <!ATTLIST test
+                name CDATA #REQUIRED>
+        <!ELEMENT classes (class)*>
+        <!ELEMENT class (#PCDATA)>
+        <!ATTLIST class
+                name CDATA #REQUIRED>
+        ]>
+<suite name="GmailTestSuite" verbose="1" parallel="methods" data-provider-thread-count="3" thread-count="3">
+    <test name="TestSendMail" >
+        <classes>
+            <class name="SendMailTest"/>
+        </classes>
+    </test>
+</suite>

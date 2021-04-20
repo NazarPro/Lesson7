@@ -1,4 +1,5 @@
 import org.testng.Assert;
+import org.testng.annotations.DataProvider;
 import org.testng.annotations.Test;
 import org.w3c.dom.Document;
 import org.w3c.dom.Element;
@@ -12,40 +13,49 @@ import java.io.File;
 import java.io.IOException;
 
 public class SendMailTest extends BaseTest{
-
-    File xmlFile = new File("userdata.xml");
-    DocumentBuilderFactory dbFactory = DocumentBuilderFactory.newInstance();
-    DocumentBuilder dBuilder = dbFactory.newDocumentBuilder();
-    Document doc = dBuilder.parse(xmlFile);
-    NodeList nList = doc.getChildNodes();
-    Node nXml = nList.item(0);
-    Element element = (Element)nXml;
-
-    final String LOGIN = element.getElementsByTagName("login").item(0).getTextContent();
-    final String PWD = element.getElementsByTagName("password").item(0).getTextContent();
-    final String RECIPIENT = element.getElementsByTagName("recipientEmail").item(0).getTextContent();
-    final String SUBJECT =element.getElementsByTagName("subject").item(0).getTextContent();
-    final String LETTER_TEXT = element.getElementsByTagName("letterText").item(0).getTextContent();
-
     String timeOut = PropertiesFile.getPropertyValue();
     final int TIMEOUT = Integer.parseInt(timeOut);
 
-    public SendMailTest() throws ParserConfigurationException, IOException, SAXException {
+    public SendMailTest() throws IOException {
     }
 
-    @Test
-    public void testSendMailFromActiveAccountCheckInSentDeleteLetter(){
+    @DataProvider(name="users", parallel = true)
+    public Object[][] getUsers() throws ParserConfigurationException, IOException, SAXException {
+        File xmlFile = new File("userdata.xml");
+        DocumentBuilderFactory dbFactory = DocumentBuilderFactory.newInstance();
+        DocumentBuilder dBuilder = dbFactory.newDocumentBuilder();
+        Document doc = dBuilder.parse(xmlFile);
+        NodeList nList = doc.getElementsByTagName("user");
 
-        getLoginPage().submitLogin(LOGIN);
-        getLoginPage().submitPassword(PWD);
+        Object[][] users = new Object[nList.getLength()][5];
+
+        for(int i = 0; i < nList.getLength(); i++){
+                Node nNode = nList.item(i);
+                Element element = (Element) nNode;
+                users[i][0] = element.getElementsByTagName("login").item(0).getTextContent();
+                users[i][1] = element.getElementsByTagName("password").item(0).getTextContent();
+                users[i][2] = element.getElementsByTagName("recipientEmail").item(0).getTextContent();
+                users[i][3] = element.getElementsByTagName("subject").item(0).getTextContent();
+                users[i][4] = element.getElementsByTagName("letterText").item(0).getTextContent();
+        }
+        return users;
+    }
+
+    @Test (dataProvider="users")
+    public void testSendMailFromActiveAccountCheckInSentDeleteLetter(String login, String password,
+                                                                     String recipientEmail, String subject,
+                                                                     String letterText){
+
+        getLoginPage().submitLogin(login);
+        getLoginPage().submitPassword(password);
         getHomePage().clickComposeMailButton();
-        getHomePage().fillInComposeLetterFormAndSendLetter(RECIPIENT, SUBJECT, LETTER_TEXT);
+        getHomePage().fillInComposeLetterFormAndSendLetter(recipientEmail, subject, letterText);
         getHomePage().waitInvisibilityOfElement(TIMEOUT, getHomePage().getPopupAlertMessageSent());
         getHomePage().clickSentLettersSideMenuItem();
         getSentPage().clickFirstLetterOfTheListOfLettersOnPage();
-        Assert.assertEquals(RECIPIENT.substring(0,10), getSentPage().getRecipientsEmailAddress());
-        Assert.assertEquals(SUBJECT, getSentPage().getLetterSubject());
-        Assert.assertEquals(LETTER_TEXT, getSentPage().getLetterText());
+        Assert.assertEquals(recipientEmail.substring(0,15), getSentPage().getRecipientsEmailAddress());
+        Assert.assertEquals(subject, getSentPage().getLetterSubject());
+        Assert.assertEquals(letterText, getSentPage().getLetterText());
         getSentPage().clickDeleteCurrentMessageButton();
     }
 }

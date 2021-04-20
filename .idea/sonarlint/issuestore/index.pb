@@ -3,8 +3,6 @@ K
 src/main/java/BasePage.java,3\4\34bd91b93ff8e4c77a53e229d8349a9057fa291a
 K
 src/main/java/HomePage.java,d\f\df0ab0748032f15b3773c9b421a6bb6e9a56e67e
-;
-Lesson4.iml,8\8\8851b4df013e6fdf20c04fc6ebd273af79e9c702
 L
 src/main/java/LoginPage.java,7\0\705b7aa253a1fef396ad9f8a86934c540b838c45
 7
@@ -21,3 +19,8 @@ K
 src/test/java/BaseTest.java,4\3\43e9f450cc1d05e1c35b5c2fa4533e9611ac1276
 O
 src/test/java/SendMailTest.java,a\f\af08a61a80c7160cffe439d541807d27fcf480b3
+:
+
+testng.xml,5\2\522a7a4e21649af06297e31a9e33f13bb4fd3022
+G
+src/main/java/User.java,c\c\cc4d6aa268d93c9fcea3805c8ed34ed49cede1a9

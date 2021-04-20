@@ -1,0 +1,208 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="5" passed="5" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2021-04-20T22:55:27 EEST" name="GmailTestSuite" finished-at="2021-04-20T22:57:29 EEST" duration-ms="121954">
+    <groups>
+    </groups>
+    <test started-at="2021-04-20T22:55:27 EEST" name="TestSendMail" finished-at="2021-04-20T22:57:29 EEST" duration-ms="121954">
+      <class name="SendMailTest">
+        <test-method is-config="true" signature="testsSetUp()[pri:0, instance:SendMailTest@3745e5c6]" started-at="2021-04-20T22:55:27 EEST" name="testsSetUp" finished-at="2021-04-20T22:55:39 EEST" duration-ms="12397" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testsSetUp -->
+        <test-method is-config="true" signature="testsSetUp()[pri:0, instance:SendMailTest@3745e5c6]" started-at="2021-04-20T22:55:27 EEST" name="testsSetUp" finished-at="2021-04-20T22:55:38 EEST" duration-ms="10857" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testsSetUp -->
+        <test-method is-config="true" signature="testsSetUp()[pri:0, instance:SendMailTest@3745e5c6]" started-at="2021-04-20T22:55:27 EEST" name="testsSetUp" finished-at="2021-04-20T22:55:39 EEST" duration-ms="12226" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testsSetUp -->
+        <test-method signature="testSendMailFromActiveAccountCheckInSentDeleteLetter(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:SendMailTest@3745e5c6]" started-at="2021-04-20T22:55:38 EEST" name="testSendMailFromActiveAccountCheckInSentDeleteLetter" data-provider="users" finished-at="2021-04-20T22:56:32 EEST" duration-ms="53939" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[labepamtwo]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[lab123456epam]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[labepamreceiver@gmail.com]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[TestMail]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[Test Letter Text]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testSendMailFromActiveAccountCheckInSentDeleteLetter -->
+        <test-method signature="testSendMailFromActiveAccountCheckInSentDeleteLetter(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:SendMailTest@3745e5c6]" started-at="2021-04-20T22:55:39 EEST" name="testSendMailFromActiveAccountCheckInSentDeleteLetter" data-provider="users" finished-at="2021-04-20T22:56:33 EEST" duration-ms="54242" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[labepamone]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[lab123456epam]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[labepamreceiver@gmail.com]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[TestMail]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[Test Letter Text]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testSendMailFromActiveAccountCheckInSentDeleteLetter -->
+        <test-method signature="testSendMailFromActiveAccountCheckInSentDeleteLetter(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:SendMailTest@3745e5c6]" started-at="2021-04-20T22:55:39 EEST" name="testSendMailFromActiveAccountCheckInSentDeleteLetter" data-provider="users" finished-at="2021-04-20T22:56:33 EEST" duration-ms="54218" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[labepamthree]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[lab123456epam]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[labepamreceiver@gmail.com]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[TestMail]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[Test Letter Text]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testSendMailFromActiveAccountCheckInSentDeleteLetter -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:SendMailTest@3745e5c6]" started-at="2021-04-20T22:56:32 EEST" name="tearDown" finished-at="2021-04-20T22:56:34 EEST" duration-ms="2161" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:SendMailTest@3745e5c6]" started-at="2021-04-20T22:56:33 EEST" name="tearDown" finished-at="2021-04-20T22:56:35 EEST" duration-ms="1803" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:SendMailTest@3745e5c6]" started-at="2021-04-20T22:56:33 EEST" name="tearDown" finished-at="2021-04-20T22:56:35 EEST" duration-ms="1333" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="testsSetUp()[pri:0, instance:SendMailTest@3745e5c6]" started-at="2021-04-20T22:56:34 EEST" name="testsSetUp" finished-at="2021-04-20T22:56:40 EEST" duration-ms="6039" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testsSetUp -->
+        <test-method is-config="true" signature="testsSetUp()[pri:0, instance:SendMailTest@3745e5c6]" started-at="2021-04-20T22:56:35 EEST" name="testsSetUp" finished-at="2021-04-20T22:56:41 EEST" duration-ms="6293" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testsSetUp -->
+        <test-method signature="testSendMailFromActiveAccountCheckInSentDeleteLetter(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:SendMailTest@3745e5c6]" started-at="2021-04-20T22:56:40 EEST" name="testSendMailFromActiveAccountCheckInSentDeleteLetter" data-provider="users" finished-at="2021-04-20T22:57:26 EEST" duration-ms="46277" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[labepamfour]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[lab123456epam]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[labepamreceiver@gmail.com]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[TestMail]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[Test Letter Text]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testSendMailFromActiveAccountCheckInSentDeleteLetter -->
+        <test-method signature="testSendMailFromActiveAccountCheckInSentDeleteLetter(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:SendMailTest@3745e5c6]" started-at="2021-04-20T22:56:41 EEST" name="testSendMailFromActiveAccountCheckInSentDeleteLetter" data-provider="users" finished-at="2021-04-20T22:57:28 EEST" duration-ms="46634" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[labepamfive]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[lab123456epam]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[labepamreceiver@gmail.com]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[TestMail]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[Test Letter Text]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testSendMailFromActiveAccountCheckInSentDeleteLetter -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:SendMailTest@3745e5c6]" started-at="2021-04-20T22:57:26 EEST" name="tearDown" finished-at="2021-04-20T22:57:27 EEST" duration-ms="1053" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:SendMailTest@3745e5c6]" started-at="2021-04-20T22:57:28 EEST" name="tearDown" finished-at="2021-04-20T22:57:29 EEST" duration-ms="990" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- SendMailTest -->
+    </test> <!-- TestSendMail -->
+  </suite> <!-- GmailTestSuite -->
+</testng-results>
