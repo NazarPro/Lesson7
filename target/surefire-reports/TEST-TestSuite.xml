@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report-3.0.xsd" version="3.0" name="TestSuite" time="122.657" tests="5" errors="0" skipped="0" failures="0">
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report-3.0.xsd" version="3.0" name="TestSuite" time="124.357" tests="5" errors="0" skipped="0" failures="1">
   <properties>
     <property name="java.specification.version" value="15"/>
     <property name="webdriver.chrome.driver" value="C:\Users\nazar\.cache\selenium\chromedriver\win32\90.0.4430.24\chromedriver.exe"/>
@@ -16,7 +16,7 @@
     <property name="sun.java.launcher" value="SUN_STANDARD"/>
     <property name="user.country" value="UA"/>
     <property name="sun.boot.library.path" value="C:\Program Files\Java\jdk-15.0.2\bin"/>
-    <property name="sun.java.command" value="C:\Users\nazar\AppData\Local\Temp\surefire2275855079314484401\surefirebooter12169422433450855451.jar C:\Users\nazar\AppData\Local\Temp\surefire2275855079314484401 2021-04-20T22-55-24_798-jvmRun1 surefire9728643966413192798tmp surefire_05692730156610248785tmp"/>
+    <property name="sun.java.command" value="C:\Users\nazar\AppData\Local\Temp\surefire15718513621723742513\surefirebooter12470977095203796949.jar C:\Users\nazar\AppData\Local\Temp\surefire15718513621723742513 2021-04-22T21-59-53_780-jvmRun1 surefire11468084170001359529tmp surefire_01392362319305908108tmp"/>
     <property name="jdk.debug" value="release"/>
     <property name="surefire.test.class.path" value="C:\Users\nazar\IdeaProjects\Lesson5\target\test-classes;C:\Users\nazar\IdeaProjects\Lesson5\target\classes;C:\Users\nazar\.m2\repository\org\seleniumhq\selenium\selenium-java\3.141.59\selenium-java-3.141.59.jar;C:\Users\nazar\.m2\repository\org\seleniumhq\selenium\selenium-api\3.141.59\selenium-api-3.141.59.jar;C:\Users\nazar\.m2\repository\org\seleniumhq\selenium\selenium-chrome-driver\3.141.59\selenium-chrome-driver-3.141.59.jar;C:\Users\nazar\.m2\repository\org\seleniumhq\selenium\selenium-edge-driver\3.141.59\selenium-edge-driver-3.141.59.jar;C:\Users\nazar\.m2\repository\org\seleniumhq\selenium\selenium-firefox-driver\3.141.59\selenium-firefox-driver-3.141.59.jar;C:\Users\nazar\.m2\repository\org\seleniumhq\selenium\selenium-ie-driver\3.141.59\selenium-ie-driver-3.141.59.jar;C:\Users\nazar\.m2\repository\org\seleniumhq\selenium\selenium-opera-driver\3.141.59\selenium-opera-driver-3.141.59.jar;C:\Users\nazar\.m2\repository\org\seleniumhq\selenium\selenium-remote-driver\3.141.59\selenium-remote-driver-3.141.59.jar;C:\Users\nazar\.m2\repository\org\seleniumhq\selenium\selenium-safari-driver\3.141.59\selenium-safari-driver-3.141.59.jar;C:\Users\nazar\.m2\repository\org\seleniumhq\selenium\selenium-support\3.141.59\selenium-support-3.141.59.jar;C:\Users\nazar\.m2\repository\net\bytebuddy\byte-buddy\1.8.15\byte-buddy-1.8.15.jar;C:\Users\nazar\.m2\repository\org\apache\commons\commons-exec\1.3\commons-exec-1.3.jar;C:\Users\nazar\.m2\repository\com\google\guava\guava\25.0-jre\guava-25.0-jre.jar;C:\Users\nazar\.m2\repository\com\google\code\findbugs\jsr305\1.3.9\jsr305-1.3.9.jar;C:\Users\nazar\.m2\repository\org\checkerframework\checker-compat-qual\2.0.0\checker-compat-qual-2.0.0.jar;C:\Users\nazar\.m2\repository\com\google\errorprone\error_prone_annotations\2.1.3\error_prone_annotations-2.1.3.jar;C:\Users\nazar\.m2\repository\com\google\j2objc\j2objc-annotations\1.1\j2objc-annotations-1.1.jar;C:\Users\nazar\.m2\repository\org\codehaus\mojo\animal-sniffer-annotations\1.14\animal-sniffer-annotations-1.14.jar;C:\Users\nazar\.m2\repository\com\squareup\okhttp3\okhttp\3.11.0\okhttp-3.11.0.jar;C:\Users\nazar\.m2\repository\com\squareup\okio\okio\1.14.0\okio-1.14.0.jar;C:\Users\nazar\.m2\repository\org\testng\testng\7.3.0\testng-7.3.0.jar;C:\Users\nazar\.m2\repository\com\beust\jcommander\1.78\jcommander-1.78.jar;C:\Users\nazar\.m2\repository\org\apache\ant\ant\1.10.3\ant-1.10.3.jar;C:\Users\nazar\.m2\repository\org\apache\ant\ant-launcher\1.10.3\ant-launcher-1.10.3.jar;C:\Users\nazar\.m2\repository\junit\junit\4.12\junit-4.12.jar;C:\Users\nazar\.m2\repository\org\hamcrest\hamcrest-core\1.3\hamcrest-core-1.3.jar;C:\Users\nazar\.m2\repository\com\google\inject\guice\4.2.2\guice-4.2.2-no_aop.jar;C:\Users\nazar\.m2\repository\javax\inject\javax.inject\1\javax.inject-1.jar;C:\Users\nazar\.m2\repository\aopalliance\aopalliance\1.0\aopalliance-1.0.jar;C:\Users\nazar\.m2\repository\org\yaml\snakeyaml\1.21\snakeyaml-1.21.jar;C:\Users\nazar\.m2\repository\io\github\bonigarcia\webdrivermanager\4.3.1\webdrivermanager-4.3.1.jar;C:\Users\nazar\.m2\repository\org\slf4j\slf4j-api\1.7.30\slf4j-api-1.7.30.jar;C:\Users\nazar\.m2\repository\commons-io\commons-io\2.8.0\commons-io-2.8.0.jar;C:\Users\nazar\.m2\repository\com\google\code\gson\gson\2.8.6\gson-2.8.6.jar;C:\Users\nazar\.m2\repository\org\apache\commons\commons-lang3\3.11\commons-lang3-3.11.jar;C:\Users\nazar\.m2\repository\org\apache\httpcomponents\client5\httpclient5\5.0.3\httpclient5-5.0.3.jar;C:\Users\nazar\.m2\repository\org\apache\httpcomponents\core5\httpcore5\5.0.2\httpcore5-5.0.2.jar;C:\Users\nazar\.m2\repository\org\apache\httpcomponents\core5\httpcore5-h2\5.0.2\httpcore5-h2-5.0.2.jar;C:\Users\nazar\.m2\repository\commons-codec\commons-codec\1.13\commons-codec-1.13.jar;C:\Users\nazar\.m2\repository\org\rauschig\jarchivelib\1.1.0\jarchivelib-1.1.0.jar;C:\Users\nazar\.m2\repository\org\apache\commons\commons-compress\1.20\commons-compress-1.20.jar;C:\Users\nazar\.m2\repository\org\jsoup\jsoup\1.13.1\jsoup-1.13.1.jar;"/>
     <property name="sun.cpu.endian" value="little"/>
@@ -31,7 +31,7 @@
     <property name="line.separator" value="&#10;"/>
     <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
     <property name="java.specification.name" value="Java Platform API Specification"/>
-    <property name="surefire.real.class.path" value="C:\Users\nazar\AppData\Local\Temp\surefire2275855079314484401\surefirebooter12169422433450855451.jar"/>
+    <property name="surefire.real.class.path" value="C:\Users\nazar\AppData\Local\Temp\surefire15718513621723742513\surefirebooter12470977095203796949.jar"/>
     <property name="user.script" value=""/>
     <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
     <property name="java.runtime.version" value="15.0.2+7-27"/>
@@ -57,48 +57,57 @@
     <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
     <property name="java.class.version" value="59.0"/>
   </properties>
-  <testcase name="testSendMailFromActiveAccountCheckInSentDeleteLetter[labepamtwo, lab123456epam, labepamreceiver@gmail.com, TestMail, Test Letter Text](1)" classname="SendMailTest" time="52.409">
-    <system-out><![CDATA[[TestNGContentHandler] [WARN] It is strongly recommended to add "<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd" >" at the top of your file, otherwise TestNG may fail or not work as expected.
-]]></system-out>
+  <testcase name="testSendMailFromActiveAccountCheckInSentDeleteLetter[labepamone, lab123456epam, labepamreceiver@gmail.com, TestMail, Test Letter Text](1)" classname="SendMailTest" time="55.62">
+    <failure message="stale element reference: element is not attached to the page document&#10;  (Session info: chrome=90.0.4430.85)&#10;For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/stale_element_reference.html&#10;Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:17:03&apos;&#10;System info: host: &apos;DESKTOP-FKGOML4&apos;, ip: &apos;192.168.1.103&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;15.0.2&apos;&#10;Driver info: org.openqa.selenium.chrome.ChromeDriver&#10;Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 90.0.4430.85, chrome: {chromedriverVersion: 90.0.4430.24 (4c6d850f087da..., userDataDir: C:\Users\nazar\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:55033}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}&#10;Session ID: 5da695634b20cea3b5a06f10b7b6d343" type="org.openqa.selenium.StaleElementReferenceException"><![CDATA[org.openqa.selenium.StaleElementReferenceException: 
+stale element reference: element is not attached to the page document
+  (Session info: chrome=90.0.4430.85)
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/stale_element_reference.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'DESKTOP-FKGOML4', ip: '192.168.1.103', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '15.0.2'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 90.0.4430.85, chrome: {chromedriverVersion: 90.0.4430.24 (4c6d850f087da..., userDataDir: C:\Users\nazar\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:55033}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 5da695634b20cea3b5a06f10b7b6d343
+	at SendMailTest.testSendMailFromActiveAccountCheckInSentDeleteLetter(SendMailTest.java:32)
+]]></failure>
     <system-err><![CDATA[SLF4J: Failed to load class "org.slf4j.impl.StaticLoggerBinder".
 SLF4J: Defaulting to no-operation (NOP) logger implementation
 SLF4J: See http://www.slf4j.org/codes.html#StaticLoggerBinder for further details.
-Starting ChromeDriver 90.0.4430.24 (4c6d850f087da467d926e8eddb76550aed655991-refs/branch-heads/4430@{#429}) on port 45507
+SSttaarrttiinng gC hChrroommeeDDrriivveerr 9 09.00..04.44340.3204. 2(44 c6(4d8c560df850807fda04867d79d2a6e84e6d7ddb976256e580aeeddd65b576959150-raeedf6s5/5b9r9anc1h--rehefsa/dsb/ra4n4c3h-0h@{ea#4ds29/}4)4 3o0n@{ p#4o2rt9 })2 9o54n0 po
+rOntl y43 9lo33cal
+O ncolnyn eloctcaiol ncs oanrnee alcltoiwoends. a
+reP lealalseow esed.e 
+hPtltpesa:se// scheero hmetdtrpsi:ve//r.cchrhormomieudmr.iovreg/rs.echcurroimtiuym-.coorngsi/dseercautriitony-sc foorn ssiudgegersattiioonnss o fno rk eseupgignegs tCihornosm eoDrni vkeere psafineg. C
+hromeDriver safe.
+CChhrroomemDerDirvievre rw awsa ssta rstedt asrutcceeds ssfuuclcleys.sf
+ully.
+Starting ChromeDriver 90.0.4430.24 (4c6d850f087da467d926e8eddb76550aed655991-refs/branch-heads/4430@{#429}) on port 45524
 Only local connections are allowed.
 Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
-Starting ChromeDriver 90.0.4430.24 (4c6d850f087da467d926e8eddb76550aed655991-refs/branch-heads/4430@{#429}) on port 2261
-Only local connections are allowed.
-Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
-Starting ChromeDriver 90.0.4430.24 (4c6d850f087da467d926e8eddb76550aed655991-refs/branch-heads/4430@{#429}) on port 24001
-Only local connections are allowed.
-Please see https://chromedriver.chromium.org/security-considerationChs rfomoreD rsiuvggere swtaiosn sst oarn tkeede psiuncg CchersosmfeuDllryi.ve
-r safe.
 ChromeDriver was started successfully.
-ChromeDriver was started successfully.
-квіт. 20, 2021 10:55:32 ПП org.openqa.selenium.remote.ProtocolHandshake createSession
+квіт. 22, 2021 10:00:00 ПП org.openqa.selenium.remote.ProtocolHandshake createSession
 INFO: Detected dialect: W3C
-квіт. 20, 2021 10:55:32 ПП org.openqa.selenium.remote.ProtocolHandshake createSession
+квіт. 22, 2021 10:00:01 ПП org.openqa.selenium.remote.ProtocolHandshake createSession
 INFO: Detected dialect: W3C
-квіт. 20, 2021 10:55:33 ПП org.openqa.selenium.remote.ProtocolHandshake createSession
+квіт. 22, 2021 10:00:01 ПП org.openqa.selenium.remote.ProtocolHandshake createSession
 INFO: Detected dialect: W3C
 ]]></system-err>
   </testcase>
-  <testcase name="testSendMailFromActiveAccountCheckInSentDeleteLetter[labepamone, lab123456epam, labepamreceiver@gmail.com, TestMail, Test Letter Text](2)" classname="SendMailTest" time="54.071"/>
-  <testcase name="testSendMailFromActiveAccountCheckInSentDeleteLetter[labepamthree, lab123456epam, labepamreceiver@gmail.com, TestMail, Test Letter Text](3)" classname="SendMailTest" time="54.218"/>
-  <testcase name="testSendMailFromActiveAccountCheckInSentDeleteLetter[labepamfour, lab123456epam, labepamreceiver@gmail.com, TestMail, Test Letter Text](4)" classname="SendMailTest" time="45.04">
-    <system-err><![CDATA[Starting ChromeDriver 90.0.4430.24 (4c6d850f087da467d926e8eddb76550aed655991-refs/branch-heads/4430@{#429}) on port 31087
+  <testcase name="testSendMailFromActiveAccountCheckInSentDeleteLetter[labepamtwo, lab123456epam, labepamreceiver@gmail.com, TestMail, Test Letter Text](2)" classname="SendMailTest" time="55.818"/>
+  <testcase name="testSendMailFromActiveAccountCheckInSentDeleteLetter[labepamthree, lab123456epam, labepamreceiver@gmail.com, TestMail, Test Letter Text](3)" classname="SendMailTest" time="56.814"/>
+  <testcase name="testSendMailFromActiveAccountCheckInSentDeleteLetter[labepamfour, lab123456epam, labepamreceiver@gmail.com, TestMail, Test Letter Text](4)" classname="SendMailTest" time="45.718">
+    <system-err><![CDATA[Starting ChromeDriver 90.0.4430.24 (4c6d850f087da467d926e8eddb76550aed655991-refs/branch-heads/4430@{#429}) on port 12903
 Only local connections are allowed.
 Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
 ChromeDriver was started successfully.
-Starting ChromeDriver 90.0.4430.24 (4c6d850f087da467d926e8eddb76550aed655991-refs/branch-heads/4430@{#429}) on port 18592
+Starting ChromeDriver 90.0.4430.24 (4c6d850f087da467d926e8eddb76550aed655991-refs/branch-heads/4430@{#429}) on port 17021
 Only local connections are allowed.
 Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
 ChromeDriver was started successfully.
-квіт. 20, 2021 10:56:35 ПП org.openqa.selenium.remote.ProtocolHandshake createSession
+квіт. 22, 2021 10:01:08 ПП org.openqa.selenium.remote.ProtocolHandshake createSession
 INFO: Detected dialect: W3C
-квіт. 20, 2021 10:56:38 ПП org.openqa.selenium.remote.ProtocolHandshake createSession
+квіт. 22, 2021 10:01:08 ПП org.openqa.selenium.remote.ProtocolHandshake createSession
 INFO: Detected dialect: W3C
 ]]></system-err>
   </testcase>
-  <testcase name="testSendMailFromActiveAccountCheckInSentDeleteLetter[labepamfive, lab123456epam, labepamreceiver@gmail.com, TestMail, Test Letter Text](5)" classname="SendMailTest" time="46.636"/>
+  <testcase name="testSendMailFromActiveAccountCheckInSentDeleteLetter[labepamfive, lab123456epam, labepamreceiver@gmail.com, TestMail, Test Letter Text](5)" classname="SendMailTest" time="46.694"/>
 </testsuite>

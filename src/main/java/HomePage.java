@@ -3,7 +3,7 @@ import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.FindBy;
 
 
-public class HomePage extends BasePage{
+public class HomePage extends BasePage {
 
     @FindBy(xpath="//div[@class='aic']//descendant::*[@role='button']")
     private WebElement composeMailButton;
@@ -14,10 +14,10 @@ public class HomePage extends BasePage{
     @FindBy (css = "input.aoT[name='subjectbox']")
     private WebElement subjectTextField;
 
-    @FindBy(xpath = "//div[@aria-label='Текст повідомлення']")
+    @FindBy(xpath = "//div[@role='textbox']")
     private WebElement messageTextTextField;
 
-    @FindBy(xpath = "//div[@class='dC']/div[contains(@aria-label, 'Надіслати')]")
+    @FindBy(xpath = "//div[@role='button' and contains(@aria-label,'(Ctrl –Enter)')]")
     private WebElement sendLetterButton;
 
     @FindBy(xpath = "//div[@role='alert' and @aria-atomic='true']")
@@ -31,16 +31,21 @@ public class HomePage extends BasePage{
 
     public void clickComposeMailButton(){composeMailButton.click();}
 
-    public void fillInComposeLetterFormAndSendLetter(String recipient, String subject, String messageText){
+    public void fillInRecipientEmail(String recipient){
         recipientsEmailAddress.clear();
         recipientsEmailAddress.sendKeys(recipient);
-        subjectTextField.clear();
-        subjectTextField.sendKeys(subject);
-        messageTextTextField.clear();
-        messageTextTextField.sendKeys(messageText);
-        sendLetterButton.click();
      }
 
+    public void fillInMessageSubjectText(String subject){
+        subjectTextField.clear();
+        subjectTextField.sendKeys(subject);
+
+    }
+    public void fillInMessageText(String messageText){
+        messageTextTextField.clear();
+        messageTextTextField.sendKeys(messageText);
+    }
+    public void clickSendMessage(){ sendLetterButton.click(); }
      public WebElement getPopupAlertMessageSent(){return popupAlertMessageSent;}
 
     public void clickSentLettersSideMenuItem(){sentLettersSideMenuItem.click();}

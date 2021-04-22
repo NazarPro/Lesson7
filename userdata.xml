@@ -1,14 +1,4 @@
-<!DOCTYPE users [
-        <!ELEMENT users (user)*>
-        <!ELEMENT user (login|password|recipientEmail|subject|letterText)*>
-        <!ATTLIST user
-                id CDATA #REQUIRED>
-        <!ELEMENT login (#PCDATA)>
-        <!ELEMENT password (#PCDATA)>
-        <!ELEMENT recipientEmail (#PCDATA)>
-        <!ELEMENT subject (#PCDATA)>
-        <!ELEMENT letterText (#PCDATA)>
-        ]>
+<?xml version="1.0" encoding="UTF-8"?>
 <users>
     <user id="0">
         <login>labepamone</login>

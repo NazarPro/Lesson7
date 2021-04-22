@@ -1,5 +1,6 @@
-LoginPage.class
-HomePage.class
-PropertiesFile.class
 BasePage.class
 SentPage.class
+LoginPage.class
+DataFileReader.class
+HomePage.class
+PropertiesFileReader.class

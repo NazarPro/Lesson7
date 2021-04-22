@@ -4,8 +4,7 @@ import org.openqa.selenium.support.FindBy;
 
 import java.util.List;
 
-public class SentPage extends BasePage{
-
+public class SentPage extends BasePage {
 
     @FindBy(xpath = "//tr[@class='zA yO']")
     private List<WebElement> listOfLettersOnPage;
@@ -30,7 +29,7 @@ public class SentPage extends BasePage{
     }
 
     public String getRecipientsEmailAddress(){
-        return recipientsEmailAddress.getText();
+        return recipientsEmailAddress.getText() + "@gmail.com";
     }
 
     public String getLetterSubject(){
@@ -42,4 +41,6 @@ public class SentPage extends BasePage{
     }
 
     public void clickDeleteCurrentMessageButton() {deleteCurrentMessageButton.click();}
+
+    public WebElement getDeleteCurrentMessageButton(){return deleteCurrentMessageButton;}
 }
