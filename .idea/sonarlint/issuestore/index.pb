@@ -1,16 +1,6 @@
 
-K
-src/main/java/BasePage.java,3\4\34bd91b93ff8e4c77a53e229d8349a9057fa291a
-K
-src/main/java/HomePage.java,d\f\df0ab0748032f15b3773c9b421a6bb6e9a56e67e
-L
-src/main/java/LoginPage.java,7\0\705b7aa253a1fef396ad9f8a86934c540b838c45
 7
 pom.xml,4\4\442292b8a7efeabbe4cc176709b833b1792140ec
-Q
-!src/main/java/PropertiesFile.java,b\9\b90584c18a722a5c81246b425dc179e17d8031f0
-K
-src/main/java/SentPage.java,3\5\35ba3c0078828d6e4da630c50de0f2a80d8dfb9d
 C
 settings.properties,2\3\231b24b70e611e69223136e4675d4ce61282a305
 <
@@ -46,8 +36,6 @@ Ptarget/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.ls
 Xtarget/maven-status/maven-compiler-plugin/testCompile/default-testCompile/inputFiles.lst,4\0\4032e4ef0f8712e43ff2a568e798808b0d0cb7e9
 [
 +target/surefire-reports/jquery-3.4.1.min.js,e\4\e442deda1b1a55ff7dca64074d2c93ff704f3d4a
-;
-Lesson5.iml,8\1\8163578690dfcf1de68cf32c73d44727ec566d6b
 d
 4target/surefire-reports/old/GmailTestSuite/main.html,e\1\e16d3ece54c73e481f82f19be78c7dd2df98381d
 g
@@ -86,3 +74,19 @@ U
 %target/surefire-reports/TestSuite.txt,e\0\e03385f71f8a61513b9fd3cd328ea1c9828d6932
 c
 3target/surefire-reports/old/GmailTestSuite/toc.html,f\c\fc1bab68bd1bdba1b6d057160b68279eb1586eeb
+Z
+*src/main/java/business/MessageActions.java,4\6\46aab4351245b94e326fd15f0e8cd8e943e03419
+]
+-src/main/java/pages/PropertiesFileReader.java,8\1\81a1a609fa581df11c023cc8ad420dd4d8380111
+W
+'src/main/java/pages/DataFileReader.java,7\0\703c0aa8347f1b80a08c88a0ebadb72800e38cc2
+Q
+!src/main/java/pages/SentPage.java,8\4\844c0b79680f6511e5189f6f84c874038d6a4ab2
+Q
+!src/main/java/pages/HomePage.java,9\6\9655b2a35fae75d92697b79cda62632f93f33e6e
+R
+"src/main/java/pages/LoginPage.java,4\b\4bdc7fe650a4170fd3332cdfc4dca51f7507f98b
+Q
+!src/main/java/pages/BasePage.java,e\2\e2e13e66e55a179dc9c969979a2c5c7949318f67
+X
+(src/main/java/business/LoginActions.java,b\e\befeea17c147fda2affe5ec0f60ac19375b9187f

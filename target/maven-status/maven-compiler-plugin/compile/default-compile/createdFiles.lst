@@ -1,6 +1,10 @@
-BasePage.class
-SentPage.class
-LoginPage.class
-DataFileReader.class
-HomePage.class
-PropertiesFileReader.class
+pages\BasePage.class
+pages\SentPage.class
+utilities\DriverManager.class
+business\actions\MessageActions.class
+pages\LoginPage.class
+pages\HomePage.class
+utilities\DataFileReader.class
+business\asserts\MessageAssert.class
+business\actions\LoginActions.class
+utilities\PropertiesFileReader.class

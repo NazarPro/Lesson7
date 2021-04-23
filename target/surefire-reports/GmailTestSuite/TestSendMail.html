@@ -55,11 +55,11 @@ function toggleAllBoxes() {
 <body>
 <h2 align='center'>TestSendMail</h2><table border='1' align="center">
 <tr>
-<td>Tests passed/Failed/Skipped:</td><td>4/1/0</td>
+<td>Tests passed/Failed/Skipped:</td><td>5/0/0</td>
 </tr><tr>
-<td>Started on:</td><td>Thu Apr 22 21:59:56 EEST 2021</td>
+<td>Started on:</td><td>Fri Apr 23 11:58:58 EEST 2021</td>
 </tr>
-<tr><td>Total time:</td><td>123 seconds (123597 ms)</td>
+<tr><td>Total time:</td><td>121 seconds (121377 ms)</td>
 </tr><tr>
 <td>Included groups:</td><td></td>
 </tr><tr>
@@ -67,90 +67,6 @@ function toggleAllBoxes() {
 </tr>
 </table><p/>
 <small><i>(Hover the method name to see the test class name)</i></small><p/>
-<table width='100%' border='1' class='invocation-failed'>
-<tr><td colspan='4' align='center'><b>FAILED TESTS</b></td></tr>
-<tr><td><b>Test method</b></td>
-<td width="30%"><b>Exception</b></td>
-<td width="10%"><b>Time (seconds)</b></td>
-<td><b>Instance</b></td>
-</tr>
-<tr>
-<td title='SendMailTest.testSendMailFromActiveAccountCheckInSentDeleteLetter()'><b>testSendMailFromActiveAccountCheckInSentDeleteLetter</b><br>Test class: SendMailTest<br>Parameters: labepamone, lab123456epam, labepamreceiver@gmail.com, TestMail, Test Letter Text</td>
-<td><div><pre>org.openqa.selenium.StaleElementReferenceException: stale element reference: element is not attached to the page document
-  (Session info: chrome=90.0.4430.85)
-For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/stale_element_reference.html
-Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:17:03&apos;
-System info: host: &apos;DESKTOP-FKGOML4&apos;, ip: &apos;192.168.1.103&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;15.0.2&apos;
-Driver info: org.openqa.selenium.chrome.ChromeDriver
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 90.0.4430.85, chrome: {chromedriverVersion: 90.0.4430.24 (4c6d850f087da..., userDataDir: C:\Users\nazar\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:55033}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
-Session ID: 5da695634b20cea3b5a06f10b7b6d343
-	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
-	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
-	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
-	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
-	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
-	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
-	at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:285)
-	at org.openqa.selenium.remote.RemoteWebElement.getText(RemoteWebElement.java:166)
-	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:51)
-	at com.sun.proxy.$Proxy10.getText(Unknown Source)
-	at SentPage.getLetterText(SentPage.java:40)
-	at SendMailTest.testSendMailFromActiveAccountCheckInSentDeleteLetter(SendMailTest.java:32)
-	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
-	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:515)
-	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
-	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1130)
-	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:630)
-	at java.base/java.lang.Thread.run(Thread.java:832)
-... Removed 18 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace1264078530", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
-<div class='stack-trace' id='stack-trace1264078530'><pre>org.openqa.selenium.StaleElementReferenceException: stale element reference: element is not attached to the page document
-  (Session info: chrome=90.0.4430.85)
-For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/stale_element_reference.html
-Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:17:03&apos;
-System info: host: &apos;DESKTOP-FKGOML4&apos;, ip: &apos;192.168.1.103&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;15.0.2&apos;
-Driver info: org.openqa.selenium.chrome.ChromeDriver
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 90.0.4430.85, chrome: {chromedriverVersion: 90.0.4430.24 (4c6d850f087da..., userDataDir: C:\Users\nazar\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:55033}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
-Session ID: 5da695634b20cea3b5a06f10b7b6d343
-	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
-	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:64)
-	at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
-	at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:500)
-	at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:481)
-	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
-	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
-	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
-	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
-	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
-	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
-	at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:285)
-	at org.openqa.selenium.remote.RemoteWebElement.getText(RemoteWebElement.java:166)
-	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:64)
-	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
-	at java.base/java.lang.reflect.Method.invoke(Method.java:564)
-	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:51)
-	at com.sun.proxy.$Proxy10.getText(Unknown Source)
-	at SentPage.getLetterText(SentPage.java:40)
-	at SendMailTest.testSendMailFromActiveAccountCheckInSentDeleteLetter(SendMailTest.java:32)
-	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:64)
-	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
-	at java.base/java.lang.reflect.Method.invoke(Method.java:564)
-	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:132)
-	at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:599)
-	at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:174)
-	at org.testng.internal.TestMethodWithDataProviderMethodWorker.call(TestMethodWithDataProviderMethodWorker.java:77)
-	at org.testng.internal.TestMethodWithDataProviderMethodWorker.call(TestMethodWithDataProviderMethodWorker.java:15)
-	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
-	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:515)
-	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
-	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1130)
-	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:630)
-	at java.base/java.lang.Thread.run(Thread.java:832)
-</pre></div></td>
-<td>55</td>
-<td>SendMailTest@d83da2e</td></tr>
-</table><p>
 <table width='100%' border='1' class='invocation-passed'>
 <tr><td colspan='4' align='center'><b>PASSED TESTS</b></td></tr>
 <tr><td><b>Test method</b></td>
@@ -159,25 +75,30 @@ Session ID: 5da695634b20cea3b5a06f10b7b6d343
 <td><b>Instance</b></td>
 </tr>
 <tr>
-<td title='SendMailTest.testSendMailFromActiveAccountCheckInSentDeleteLetter()'><b>testSendMailFromActiveAccountCheckInSentDeleteLetter</b><br>Test class: SendMailTest<br>Parameters: labepamtwo, lab123456epam, labepamreceiver@gmail.com, TestMail, Test Letter Text</td>
-<td></td>
-<td>57</td>
-<td>SendMailTest@d83da2e</td></tr>
-<tr>
 <td title='SendMailTest.testSendMailFromActiveAccountCheckInSentDeleteLetter()'><b>testSendMailFromActiveAccountCheckInSentDeleteLetter</b><br>Test class: SendMailTest<br>Parameters: labepamthree, lab123456epam, labepamreceiver@gmail.com, TestMail, Test Letter Text</td>
 <td></td>
-<td>57</td>
-<td>SendMailTest@d83da2e</td></tr>
+<td>52</td>
+<td>SendMailTest@71c8becc</td></tr>
+<tr>
+<td title='SendMailTest.testSendMailFromActiveAccountCheckInSentDeleteLetter()'><b>testSendMailFromActiveAccountCheckInSentDeleteLetter</b><br>Test class: SendMailTest<br>Parameters: labepamone, lab123456epam, labepamreceiver@gmail.com, TestMail, Test Letter Text</td>
+<td></td>
+<td>51</td>
+<td>SendMailTest@71c8becc</td></tr>
+<tr>
+<td title='SendMailTest.testSendMailFromActiveAccountCheckInSentDeleteLetter()'><b>testSendMailFromActiveAccountCheckInSentDeleteLetter</b><br>Test class: SendMailTest<br>Parameters: labepamtwo, lab123456epam, labepamreceiver@gmail.com, TestMail, Test Letter Text</td>
+<td></td>
+<td>52</td>
+<td>SendMailTest@71c8becc</td></tr>
 <tr>
 <td title='SendMailTest.testSendMailFromActiveAccountCheckInSentDeleteLetter()'><b>testSendMailFromActiveAccountCheckInSentDeleteLetter</b><br>Test class: SendMailTest<br>Parameters: labepamfour, lab123456epam, labepamreceiver@gmail.com, TestMail, Test Letter Text</td>
 <td></td>
-<td>45</td>
-<td>SendMailTest@d83da2e</td></tr>
+<td>48</td>
+<td>SendMailTest@71c8becc</td></tr>
 <tr>
 <td title='SendMailTest.testSendMailFromActiveAccountCheckInSentDeleteLetter()'><b>testSendMailFromActiveAccountCheckInSentDeleteLetter</b><br>Test class: SendMailTest<br>Parameters: labepamfive, lab123456epam, labepamreceiver@gmail.com, TestMail, Test Letter Text</td>
 <td></td>
-<td>46</td>
-<td>SendMailTest@d83da2e</td></tr>
+<td>48</td>
+<td>SendMailTest@71c8becc</td></tr>
 </table><p>
 </body>
 </html>

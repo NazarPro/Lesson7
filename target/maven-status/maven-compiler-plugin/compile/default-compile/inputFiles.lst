@@ -1,6 +1,10 @@
-C:\Users\nazar\IdeaProjects\Lesson5\src\main\java\BasePage.java
-C:\Users\nazar\IdeaProjects\Lesson5\src\main\java\LoginPage.java
-C:\Users\nazar\IdeaProjects\Lesson5\src\main\java\PropertiesFileReader.java
-C:\Users\nazar\IdeaProjects\Lesson5\src\main\java\HomePage.java
-C:\Users\nazar\IdeaProjects\Lesson5\src\main\java\DataFileReader.java
-C:\Users\nazar\IdeaProjects\Lesson5\src\main\java\SentPage.java
+C:\Users\nazar\IdeaProjects\Lesson6\src\main\java\business\actions\LoginActions.java
+C:\Users\nazar\IdeaProjects\Lesson6\src\main\java\pages\BasePage.java
+C:\Users\nazar\IdeaProjects\Lesson6\src\main\java\business\actions\MessageActions.java
+C:\Users\nazar\IdeaProjects\Lesson6\src\main\java\pages\HomePage.java
+C:\Users\nazar\IdeaProjects\Lesson6\src\main\java\pages\SentPage.java
+C:\Users\nazar\IdeaProjects\Lesson6\src\main\java\utilities\PropertiesFileReader.java
+C:\Users\nazar\IdeaProjects\Lesson6\src\main\java\business\asserts\MessageAssert.java
+C:\Users\nazar\IdeaProjects\Lesson6\src\main\java\utilities\DataFileReader.java
+C:\Users\nazar\IdeaProjects\Lesson6\src\main\java\pages\LoginPage.java
+C:\Users\nazar\IdeaProjects\Lesson6\src\main\java\utilities\DriverManager.java
