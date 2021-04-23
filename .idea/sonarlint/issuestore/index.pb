@@ -18,8 +18,6 @@ g
 Rtarget/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst,8\a\8ae396f369da14bb5c0973286facff8fb2c70d56
 Š
 Ztarget/maven-status/maven-compiler-plugin/testCompile/default-testCompile/createdFiles.lst,a\7\a7fa8b0772ec3c4ca9f2834f568ba1e29fe9750f
-P
- src/test/java/DriverManager.java,a\4\a427c8b7a297c8cc55ec7bd73729b7486d0ed50f
 ]
 -target/surefire-reports/emailable-report.html,e\b\eb679f9b367518fe1c99647116fc31397db51a61
 f
@@ -74,12 +72,6 @@ U
 %target/surefire-reports/TestSuite.txt,e\0\e03385f71f8a61513b9fd3cd328ea1c9828d6932
 c
 3target/surefire-reports/old/GmailTestSuite/toc.html,f\c\fc1bab68bd1bdba1b6d057160b68279eb1586eeb
-Z
-*src/main/java/business/MessageActions.java,4\6\46aab4351245b94e326fd15f0e8cd8e943e03419
-]
--src/main/java/pages/PropertiesFileReader.java,8\1\81a1a609fa581df11c023cc8ad420dd4d8380111
-W
-'src/main/java/pages/DataFileReader.java,7\0\703c0aa8347f1b80a08c88a0ebadb72800e38cc2
 Q
 !src/main/java/pages/SentPage.java,8\4\844c0b79680f6511e5189f6f84c874038d6a4ab2
 Q
@@ -88,5 +80,15 @@ R
 "src/main/java/pages/LoginPage.java,4\b\4bdc7fe650a4170fd3332cdfc4dca51f7507f98b
 Q
 !src/main/java/pages/BasePage.java,e\2\e2e13e66e55a179dc9c969979a2c5c7949318f67
-X
-(src/main/java/business/LoginActions.java,b\e\befeea17c147fda2affe5ec0f60ac19375b9187f
+Z
+*src/main/java/utilities/DriverManager.java,4\e\4e1b8eda221ae1fb82e0e31db7dc0d9a61d64c1d
+;
+Lesson6.iml,2\e\2e7f43b9d9cf14f0bcb3c63f7660b566b10c75fb
+`
+0src/main/java/business/actions/LoginActions.java,7\a\7a7e2ab7de58a03abf7ecfb71e112d486cda3385
+b
+2src/main/java/business/actions/MessageActions.java,5\1\5182dc6c3e17bc7924c4edfee1e1ae382c2adee8
+a
+1src/main/java/business/asserts/MessageAssert.java,6\6\666e483aa4a6e2d337235f396aac2891550ffef5
+a
+1src/main/java/utilities/PropertiesFileReader.java,9\5\95aafcb86b2e4cf6350c9240e6ca179bf5c132a0

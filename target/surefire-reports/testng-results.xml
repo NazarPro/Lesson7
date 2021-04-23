@@ -2,24 +2,24 @@
 <testng-results ignored="0" total="5" passed="5" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2021-04-23T11:58:58 EEST" name="GmailTestSuite" finished-at="2021-04-23T12:01:00 EEST" duration-ms="121377">
+  <suite started-at="2021-04-23T12:44:39 EEST" name="GmailTestSuite" finished-at="2021-04-23T12:46:40 EEST" duration-ms="121273">
     <groups>
     </groups>
-    <test started-at="2021-04-23T11:58:58 EEST" name="TestSendMail" finished-at="2021-04-23T12:01:00 EEST" duration-ms="121377">
+    <test started-at="2021-04-23T12:44:39 EEST" name="TestSendMail" finished-at="2021-04-23T12:46:40 EEST" duration-ms="121273">
       <class name="SendMailTest">
-        <test-method is-config="true" signature="testsSetUp()[pri:0, instance:SendMailTest@71c8becc]" started-at="2021-04-23T11:58:58 EEST" name="testsSetUp" finished-at="2021-04-23T11:59:09 EEST" duration-ms="10702" status="PASS">
+        <test-method is-config="true" signature="testsSetUp()[pri:0, instance:SendMailTest@71c8becc]" started-at="2021-04-23T12:44:39 EEST" name="testsSetUp" finished-at="2021-04-23T12:44:49 EEST" duration-ms="10154" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testsSetUp -->
-        <test-method is-config="true" signature="testsSetUp()[pri:0, instance:SendMailTest@71c8becc]" started-at="2021-04-23T11:58:58 EEST" name="testsSetUp" finished-at="2021-04-23T11:59:09 EEST" duration-ms="10713" status="PASS">
+        <test-method is-config="true" signature="testsSetUp()[pri:0, instance:SendMailTest@71c8becc]" started-at="2021-04-23T12:44:39 EEST" name="testsSetUp" finished-at="2021-04-23T12:44:51 EEST" duration-ms="12083" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testsSetUp -->
-        <test-method is-config="true" signature="testsSetUp()[pri:0, instance:SendMailTest@71c8becc]" started-at="2021-04-23T11:58:58 EEST" name="testsSetUp" finished-at="2021-04-23T11:59:08 EEST" duration-ms="9688" status="PASS">
+        <test-method is-config="true" signature="testsSetUp()[pri:0, instance:SendMailTest@71c8becc]" started-at="2021-04-23T12:44:39 EEST" name="testsSetUp" finished-at="2021-04-23T12:44:51 EEST" duration-ms="12431" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testsSetUp -->
-        <test-method signature="testSendMailFromActiveAccountCheckInSentDeleteLetter(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:SendMailTest@71c8becc]" started-at="2021-04-23T11:59:08 EEST" name="testSendMailFromActiveAccountCheckInSentDeleteLetter" data-provider="users" finished-at="2021-04-23T12:00:00 EEST" duration-ms="52023" status="PASS">
+        <test-method signature="testSendMailFromActiveAccountCheckInSentDeleteLetter(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:SendMailTest@71c8becc]" started-at="2021-04-23T12:44:49 EEST" name="testSendMailFromActiveAccountCheckInSentDeleteLetter" data-provider="users" finished-at="2021-04-23T12:45:46 EEST" duration-ms="57162" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -50,7 +50,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testSendMailFromActiveAccountCheckInSentDeleteLetter -->
-        <test-method signature="testSendMailFromActiveAccountCheckInSentDeleteLetter(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:SendMailTest@71c8becc]" started-at="2021-04-23T11:59:09 EEST" name="testSendMailFromActiveAccountCheckInSentDeleteLetter" data-provider="users" finished-at="2021-04-23T12:00:00 EEST" duration-ms="51403" status="PASS">
+        <test-method signature="testSendMailFromActiveAccountCheckInSentDeleteLetter(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:SendMailTest@71c8becc]" started-at="2021-04-23T12:44:51 EEST" name="testSendMailFromActiveAccountCheckInSentDeleteLetter" data-provider="users" finished-at="2021-04-23T12:45:46 EEST" duration-ms="55403" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -81,7 +81,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testSendMailFromActiveAccountCheckInSentDeleteLetter -->
-        <test-method signature="testSendMailFromActiveAccountCheckInSentDeleteLetter(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:SendMailTest@71c8becc]" started-at="2021-04-23T11:59:09 EEST" name="testSendMailFromActiveAccountCheckInSentDeleteLetter" data-provider="users" finished-at="2021-04-23T12:00:02 EEST" duration-ms="52647" status="PASS">
+        <test-method signature="testSendMailFromActiveAccountCheckInSentDeleteLetter(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:SendMailTest@71c8becc]" started-at="2021-04-23T12:44:51 EEST" name="testSendMailFromActiveAccountCheckInSentDeleteLetter" data-provider="users" finished-at="2021-04-23T12:45:48 EEST" duration-ms="56269" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -112,27 +112,27 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testSendMailFromActiveAccountCheckInSentDeleteLetter -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:SendMailTest@71c8becc]" started-at="2021-04-23T12:00:00 EEST" name="tearDown" finished-at="2021-04-23T12:00:02 EEST" duration-ms="2480" status="PASS">
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:SendMailTest@71c8becc]" started-at="2021-04-23T12:45:46 EEST" name="tearDown" finished-at="2021-04-23T12:45:48 EEST" duration-ms="1833" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:SendMailTest@71c8becc]" started-at="2021-04-23T12:00:00 EEST" name="tearDown" finished-at="2021-04-23T12:00:03 EEST" duration-ms="2633" status="PASS">
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:SendMailTest@71c8becc]" started-at="2021-04-23T12:45:46 EEST" name="tearDown" finished-at="2021-04-23T12:45:49 EEST" duration-ms="2727" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:SendMailTest@71c8becc]" started-at="2021-04-23T12:00:02 EEST" name="tearDown" finished-at="2021-04-23T12:00:03 EEST" duration-ms="1755" status="PASS">
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:SendMailTest@71c8becc]" started-at="2021-04-23T12:45:48 EEST" name="tearDown" finished-at="2021-04-23T12:45:50 EEST" duration-ms="2428" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
-        <test-method is-config="true" signature="testsSetUp()[pri:0, instance:SendMailTest@71c8becc]" started-at="2021-04-23T12:00:02 EEST" name="testsSetUp" finished-at="2021-04-23T12:00:09 EEST" duration-ms="6229" status="PASS">
+        <test-method is-config="true" signature="testsSetUp()[pri:0, instance:SendMailTest@71c8becc]" started-at="2021-04-23T12:45:48 EEST" name="testsSetUp" finished-at="2021-04-23T12:45:54 EEST" duration-ms="5463" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testsSetUp -->
-        <test-method is-config="true" signature="testsSetUp()[pri:0, instance:SendMailTest@71c8becc]" started-at="2021-04-23T12:00:03 EEST" name="testsSetUp" finished-at="2021-04-23T12:00:10 EEST" duration-ms="7045" status="PASS">
+        <test-method is-config="true" signature="testsSetUp()[pri:0, instance:SendMailTest@71c8becc]" started-at="2021-04-23T12:45:49 EEST" name="testsSetUp" finished-at="2021-04-23T12:45:55 EEST" duration-ms="5947" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testsSetUp -->
-        <test-method signature="testSendMailFromActiveAccountCheckInSentDeleteLetter(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:SendMailTest@71c8becc]" started-at="2021-04-23T12:00:09 EEST" name="testSendMailFromActiveAccountCheckInSentDeleteLetter" data-provider="users" finished-at="2021-04-23T12:00:57 EEST" duration-ms="48209" status="PASS">
+        <test-method signature="testSendMailFromActiveAccountCheckInSentDeleteLetter(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:SendMailTest@71c8becc]" started-at="2021-04-23T12:45:54 EEST" name="testSendMailFromActiveAccountCheckInSentDeleteLetter" data-provider="users" finished-at="2021-04-23T12:46:38 EEST" duration-ms="44137" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -163,7 +163,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testSendMailFromActiveAccountCheckInSentDeleteLetter -->
-        <test-method signature="testSendMailFromActiveAccountCheckInSentDeleteLetter(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:SendMailTest@71c8becc]" started-at="2021-04-23T12:00:10 EEST" name="testSendMailFromActiveAccountCheckInSentDeleteLetter" data-provider="users" finished-at="2021-04-23T12:00:58 EEST" duration-ms="48460" status="PASS">
+        <test-method signature="testSendMailFromActiveAccountCheckInSentDeleteLetter(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:SendMailTest@71c8becc]" started-at="2021-04-23T12:45:55 EEST" name="testSendMailFromActiveAccountCheckInSentDeleteLetter" data-provider="users" finished-at="2021-04-23T12:46:39 EEST" duration-ms="44071" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -194,11 +194,11 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testSendMailFromActiveAccountCheckInSentDeleteLetter -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:SendMailTest@71c8becc]" started-at="2021-04-23T12:00:57 EEST" name="tearDown" finished-at="2021-04-23T12:00:58 EEST" duration-ms="1565" status="PASS">
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:SendMailTest@71c8becc]" started-at="2021-04-23T12:46:38 EEST" name="tearDown" finished-at="2021-04-23T12:46:39 EEST" duration-ms="1093" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:SendMailTest@71c8becc]" started-at="2021-04-23T12:00:58 EEST" name="tearDown" finished-at="2021-04-23T12:01:00 EEST" duration-ms="1050" status="PASS">
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:SendMailTest@71c8becc]" started-at="2021-04-23T12:46:39 EEST" name="tearDown" finished-at="2021-04-23T12:46:40 EEST" duration-ms="943" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->

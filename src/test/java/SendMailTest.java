@@ -3,7 +3,6 @@ import business.actions.MessageActions;
 import business.asserts.MessageAssert;
 import org.testng.annotations.DataProvider;
 import org.testng.annotations.Test;
-import utilities.DataFileReader;
 
 
 public class SendMailTest extends BaseTest {
