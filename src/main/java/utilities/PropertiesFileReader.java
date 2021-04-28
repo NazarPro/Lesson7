@@ -8,7 +8,7 @@ public class PropertiesFileReader {
     private PropertiesFileReader() { throw new IllegalStateException("Utility class"); }
 
     public static String getTimeoutPropertyValue() {
-        Properties properties = new Properties();
+        var properties = new Properties();
         try(InputStream stream = new FileInputStream("settings.properties"))
             {
                 properties.load(stream);

@@ -7,7 +7,6 @@ import javax.xml.parsers.DocumentBuilderFactory;
 import javax.xml.parsers.ParserConfigurationException;
 import java.io.File;
 
-
 public class DataFileReader {
     private DataFileReader() {}
 
@@ -40,7 +39,7 @@ public class DataFileReader {
             users[i][1] = element.getElementsByTagName("password").item(0).getTextContent();
             users[i][2] = element.getElementsByTagName("recipientEmail").item(0).getTextContent();
             users[i][3] = element.getElementsByTagName("subject").item(0).getTextContent();
-            users[i][4] = element.getElementsByTagName("letterText").item(0).getTextContent();
+            users[i][4] = element.getElementsByTagName("messageText").item(0).getTextContent();
         }
         return users;
     }

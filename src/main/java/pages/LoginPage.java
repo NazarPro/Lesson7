@@ -1,24 +1,18 @@
 package pages;
-import org.openqa.selenium.Keys;
-import org.openqa.selenium.WebElement;
-import org.openqa.selenium.support.FindBy;
+import decorator.impl.TextInputBox;
+import org.openqa.selenium.By;
 
 public class LoginPage extends BasePage {
 
-    @FindBy(tagName="input")
-    private WebElement inputLoginTextField;
-
-    @FindBy(xpath="//div[@id='password']//input[@name='password']")
-    private WebElement inputPasswordTextField;
-
-
     public void submitLogin(String login) {
-        inputLoginTextField.clear();
-        inputLoginTextField.sendKeys(login, Keys.ENTER);
+        var inputLoginTextInput = new TextInputBox(driver.findElement(By.xpath("//input[@id='identifierId']")));
+        inputLoginTextInput.clearSendKeysClickEnter(login);
     }
 
     public void submitPassword(String password) {
-        inputPasswordTextField.clear();
-        inputPasswordTextField.sendKeys(password, Keys.ENTER);
+        var inputPasswordTextInput = new TextInputBox(driver.findElement(By
+                .xpath("//div[@id='password']//input[@name='password']")));
+        inputPasswordTextInput.clearSendKeysClickEnter(password);
     }
 }
+

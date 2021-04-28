@@ -1,4 +1,7 @@
 package pages;
+import decorator.impl.Button;
+import decorator.impl.Label;
+import org.openqa.selenium.By;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.FindBy;
 import java.util.List;
@@ -6,38 +9,30 @@ import java.util.List;
 public class SentPage extends BasePage {
 
     @FindBy(xpath = "//tr[@class='zA yO']")
-    private List<WebElement> listOfLettersOnPage;
+    protected List<WebElement> listOfLettersOnPage;
 
-    @FindBy(xpath = "//span[@class='g2']")
-    private WebElement recipientsEmailAddress;
-
-    @FindBy(xpath = "//h2[@class='hP']")
-    private WebElement letterSubject;
-
-    @FindBy(xpath = "//div[@class='a3s aiL ']/div[@dir='ltr']")
-    private WebElement letterText;
-
-    @FindBy(xpath = "//div[@id=':4']//div[@jslog='20283; u014N:cOuCgd,Kr2w4b']")
-    private WebElement deleteCurrentMessageButton;
-
-
-    public void clickFirstLetterOfTheListOfLettersOnPage(){
+    public void clickFirstLetterOfTheListOfLettersOnPage() {
         listOfLettersOnPage.get(0).click();
     }
 
-    public String getRecipientsEmailAddress(){
-        return recipientsEmailAddress.getText() + "@gmail.com";
+    public String getRecipientsEmailAddressLabel() {
+        var recipientsEmailAddressLabel = new Label(driver.findElement(By.xpath("//span[@class='g2']")));
+        return recipientsEmailAddressLabel.getTextPlusGmailDomain();
     }
 
-    public String getLetterSubject(){
-        return letterSubject.getText();
+    public String getLetterSubjectLabel() {
+        var letterSubjectLabel = new Label(driver.findElement(By.xpath("//h2[@class='hP']")));
+        return letterSubjectLabel.getText();
     }
 
-    public String getLetterText(){
+    public String getLetterText() {
+        var letterText = new Label(driver.findElement(By.xpath("//div[@class='a3s aiL ']/div[@dir='ltr']")));
         return letterText.getText();
     }
 
-    public void clickDeleteCurrentMessageButton() { deleteCurrentMessageButton.click(); }
-
-    public WebElement getDeleteCurrentMessageButton() { return deleteCurrentMessageButton; }
+    public void clickDeleteCurrentMessageButton() {
+        var deleteCurrentMessageButton = new Button(driver.findElement(By
+                .xpath("//div[@id=':4']//div[@jslog='20283; u014N:cOuCgd,Kr2w4b']")));
+        deleteCurrentMessageButton.clickIfElementIsDisplayed();
+    }
 }

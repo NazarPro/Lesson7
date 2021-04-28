@@ -3,10 +3,8 @@ import pages.HomePage;
 import pages.SentPage;
 import utilities.PropertiesFileReader;
 
-
 public class MessageActions {
     int timeOut = Integer.parseInt(PropertiesFileReader.getTimeoutPropertyValue());
-
     private final HomePage homePage = new HomePage();
     private final SentPage sentPage = new SentPage();
 
@@ -30,6 +28,6 @@ public class MessageActions {
 
     public void deleteCurrentOpenedMail() {
         sentPage.clickDeleteCurrentMessageButton();
-        sentPage.waitInvisibilityOfElement(timeOut, sentPage.getDeleteCurrentMessageButton());
+        homePage.waitInvisibilityOfElement(timeOut, homePage.getPopupAlertMessageSent());
     }
 }

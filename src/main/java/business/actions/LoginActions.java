@@ -1,7 +1,6 @@
 package business.actions;
 import pages.LoginPage;
 
-
 public class LoginActions {
     private final LoginPage loginPage = new LoginPage();
 
