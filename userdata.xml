@@ -2,35 +2,35 @@
 <users>
     <user id="1">
         <login>labepamone</login>
-        <password>lab123456epam</password>
+        <password></password>
         <recipientEmail>labepamreceiver@gmail.com</recipientEmail>
         <subject>TestMail</subject>
         <messageText>Test Letter Text</messageText>
     </user>
     <user id="2">
         <login>labepamtwo</login>
-        <password>lab123456epam</password>
+        <password></password>
         <recipientEmail>labepamreceiver@gmail.com</recipientEmail>
         <subject>TestMail</subject>
         <messageText>Test Letter Text</messageText>
     </user>
     <user id="3">
         <login>labepamthree</login>
-        <password>lab123456epam</password>
+        <password></password>
         <recipientEmail>labepamreceiver@gmail.com</recipientEmail>
         <subject>TestMail</subject>
         <messageText>Test Letter Text</messageText>
     </user>
     <user id="4">
         <login>labepamfour</login>
-        <password>lab123456epam</password>
+        <password></password>
         <recipientEmail>labepamreceiver@gmail.com</recipientEmail>
         <subject>TestMail</subject>
         <messageText>Test Letter Text</messageText>
     </user>
     <user id="5">
         <login>labepamfive</login>
-        <password>lab123456epam</password>
+        <password></password>
         <recipientEmail>labepamreceiver@gmail.com</recipientEmail>
         <subject>TestMail</subject>
         <messageText>Test Letter Text</messageText>
